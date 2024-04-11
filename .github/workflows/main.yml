@@ -32,6 +32,7 @@ jobs:
           pip install line-bot-sdk
           pip install requests beautifulsoup4
           pip install lxml
+          pip install python-dotenv
           
       - name: Run script
         run: |
